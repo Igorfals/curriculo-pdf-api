@@ -1,6 +1,6 @@
 /**
- * Arquivo: routes/employee-routes.js
- * Descrição: arquivo responsável pelas rotas da API
+ * Arquivo: routes/index.js
+ * Descrição: arquivo responsável pela chamada da API na aplicação no lado do Back-End
  * Data: 10/10/2024
  * Author: Igor Ferreira <@igor_fals - instagram>
  */

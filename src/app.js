@@ -12,12 +12,12 @@ app.use(express.json())
 
 // Rotas da API (Curriculo):
 const index = require('./routes/index');
-// const curriculoRoutes = require('./routes/routes-curriculo');
+const curriculoRoutes = require('./routes/routes-curriculo.js');
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 app.use(index);
-// app.use('/api/', curriculoRoutes);
+app.use('/api/', curriculoRoutes);
 
 module.exports = app
