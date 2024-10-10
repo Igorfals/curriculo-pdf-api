@@ -2,16 +2,25 @@
   "name": "curriculo-pdf-api",
   "version": "1.0.0",
   "description": "Aplicação de uma api para gerar curriculos em pdf",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon",
+    "lint": "eslint --ext .js -f ./node_modules/eslint-friendly-formatter . --fix",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Igorfals/curriculo-pdf-api.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "express",
+    "api",
+    "javascript",
+    "nodejs",
+    "sql",
+    "pdf"
+  ],
+  "author": "Igor Ferreira https://github.com/Igorfals",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Igorfals/curriculo-pdf-api/issues"
@@ -24,6 +33,7 @@
     "nodemon": "^3.1.7"
   },
   "dependencies": {
+    "eslint-friendly-formatter": "^4.0.1",
     "express": "^4.21.1"
   }
 }
